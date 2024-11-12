@@ -1,0 +1,20 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "This campaign theme looks really cool!"
+      }
+    ],
+    "function": "approve_campaign_theme"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Can we start over with the campaign direction?"
+      }
+    ],
+    "function": "transfer_to_manager"
+  }
+]

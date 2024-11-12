@@ -1,0 +1,23 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How is our campaign performing on social media?"
+      }
+    ],
+    "function": "generate_performance_report"
+  },
+  {
+    "conversation": [
+      { "role": "user", "content": "What's the ROI on our current ad spend?" }
+    ],
+    "function": "generate_performance_report"
+  },
+  {
+    "conversation": [
+      { "role": "user", "content": "We need to pivot our targeting strategy" }
+    ],
+    "function": "transfer_to_manager"
+  }
+]

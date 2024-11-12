@@ -1,0 +1,44 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "We need a new campaign for our eco-friendly water bottle"
+      }
+    ],
+    "function": "transfer_to_creative_director"
+  },
+  {
+    "conversation": [
+      { "role": "user", "content": "The copy needs to be more energetic" }
+    ],
+    "function": "transfer_to_copywriter"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Can we see different color schemes for the visuals?"
+      }
+    ],
+    "function": "transfer_to_designer"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "How is our campaign performing on social media?"
+      }
+    ],
+    "function": "transfer_to_analyst"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "The client wants to discuss the campaign direction"
+      }
+    ],
+    "function": "transfer_to_client_liaison"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "The client loves the sustainability message but wants more emphasis on premium features"
+      }
+    ],
+    "function": "submit_client_feedback"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "Client requests a meeting to discuss campaign direction"
+      }
+    ],
+    "function": "transfer_to_manager"
+  }
+]

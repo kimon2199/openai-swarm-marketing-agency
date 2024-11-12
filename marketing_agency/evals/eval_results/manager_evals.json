@@ -1,0 +1,27 @@
+{
+  "id": "550e8400-e29b-41d4-a716-446655440000",
+  "timestamp": "2024-03-21T14:30:00.000Z",
+  "results": [
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "We need a new campaign for our eco-friendly water bottle"
+        }
+      ],
+      "expected_function": "transfer_to_creative_director",
+      "actual_function": [
+        "transfer_to_creative_director",
+        "transfer_to_creative_director",
+        "transfer_to_creative_director",
+        "transfer_to_creative_director",
+        "transfer_to_creative_director"
+      ],
+      "actual_message": ["None", "None", "None", "None", "None"],
+      "case_accuracy": "100.00%"
+    }
+  ],
+  "correct_evals": 5,
+  "total_evals": 5,
+  "overall_accuracy_percent": "100.00%"
+}

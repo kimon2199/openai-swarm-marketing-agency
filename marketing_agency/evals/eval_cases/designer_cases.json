@@ -1,0 +1,17 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "The design is up to the client's standards"
+      }
+    ],
+    "function": "approve_design"
+  },
+  {
+    "conversation": [
+      { "role": "user", "content": "We need to restart the design process" }
+    ],
+    "function": "transfer_to_manager"
+  }
+]

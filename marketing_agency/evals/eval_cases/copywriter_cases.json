@@ -1,0 +1,20 @@
+[
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "The copywriting is up to the client's standards"
+      }
+    ],
+    "function": "approve_copy"
+  },
+  {
+    "conversation": [
+      {
+        "role": "user",
+        "content": "We need to completely change the messaging approach"
+      }
+    ],
+    "function": "transfer_to_manager"
+  }
+]
